@@ -11,6 +11,21 @@
 body {
     min-height: 100vh;
     font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+
+    /* Test for typography script*/
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Test for typography script*/
+body > div {
+    border: solid black 1px;
+    padding: 7px;
+    border-radius: 5px;
 }
 
 :root {
