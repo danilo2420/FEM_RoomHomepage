@@ -88,4 +88,8 @@ body {
 
 .firstSection__bottom__shopNow__arrow {
     height: 12px;
+    width: 52px;
+    
+    position: relative;
+    top: -3px;
 }

@@ -1,1 +1,21 @@
 
+@media (min-width: 700px) {
+
+
+
+
+    .firstSection__bottom {
+        padding: 64px;
+        
+        gap: 24px;
+    }
+
+    .firstSection__bottom__shopNow {
+        justify-content: start;
+        gap: 24px;
+    }
+
+    .firstSection__bottom__shopNow__arrow {
+        width: 40px;
+    }
+}
