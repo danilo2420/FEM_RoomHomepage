@@ -1,12 +1,25 @@
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 
+    .firstSection__top {
+        background-image: url('../images/desktop-image-hero-1.jpg');
+    }
 
+    .header {
+        padding: 48px 64px;
+    }
+
+    .arrowButtons > * {
+        --arrowButtonSize: 80px;
+    }
+
+    .arrowButtons img {
+        width: 12px;
+    }
 
 
     .firstSection__bottom {
         padding: 64px;
-        
         gap: 24px;
     }
 
