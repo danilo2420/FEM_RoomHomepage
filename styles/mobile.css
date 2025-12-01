@@ -12,8 +12,38 @@ body {
 }
 
 .firstSection__top {
-    background-color: hsl(200, 100%, 70%);
     height: 360px;
+
+    background-image: url('../images/mobile-image-hero-1.jpg');
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.arrowButtons {
+    display: flex;
+
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.arrowButtons > * {
+    --arrowButtonSize: 56px;
+
+    background-color: var(--black);
+
+    width: var(--arrowButtonSize);
+    height: var(--arrowButtonSize);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowButtons img {
+    width: 8.4px;
 }
 
 .firstSection__bottom {
