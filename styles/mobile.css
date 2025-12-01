@@ -46,6 +46,21 @@ body {
     width: 8.4px;
 }
 
+.header {
+    padding: 48px 24px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.burgerMenu {
+    height: 14px;
+}
+
+.roomLogo {
+    height: 13.2px;
+}
+
 .firstSection__bottom {
     height: 360px;
     padding: 64px 32.5px;
