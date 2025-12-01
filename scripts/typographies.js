@@ -6,18 +6,13 @@
 
 // Data object: describe the different elements that change typographies here
 const dataObject = [
+    /*
     {
         "selector": ".element1",
         "cutPoints": [600, 1100],
         "tps": ["tp3", "tp2", "tp1"],
         "currentVersion": ""
-    },
-    {
-        "selector": ".element2",
-        "cutPoints": [800, 1300],
-        "tps": ["tp3", "tp2", "tp1"],
-        "currentVersion": ""
-    }
+    },*/
 ]
 
 // Main 
