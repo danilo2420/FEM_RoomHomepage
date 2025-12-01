@@ -6,15 +6,25 @@
 
 // Data object: describe the different elements that change typographies here
 const dataObject = [
-    /*
     {
-        "selector": ".element1",
+        "selector": ".firstSection__bottom__content__title",
         "cutPoints": [600, 1100],
-        "tps": ["tp3", "tp2", "tp1"],
+        "tps": ["tp2", "tp1", "tp1"],
         "currentVersion": ""
-    },*/
+    },
+    {
+        "selector": ".firstSection__bottom__content__text",
+        "cutPoints": [600, 1100],
+        "tps": ["tp3-medium", "tp3-medium", "tp3-medium"],
+        "currentVersion": ""
+    },
+    {
+        "selector": ".firstSection__bottom__shopNow__text",
+        "cutPoints": [600, 1100],
+        "tps": ["tp4", "tp4", "tp4"],
+        "currentVersion": ""
+    }
 ]
-
 // Main 
 export function runTypographiesScript() {
     window.onload = loadTypographies;

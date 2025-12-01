@@ -1,1 +1,46 @@
 
+body {
+    border: solid red 2px;
+}
+
+/* First section */
+.firstSection {
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.firstSection__top {
+    background-color: hsl(200, 100%, 70%);
+    height: 360px;
+}
+
+.firstSection__bottom {
+    height: 360px;
+    padding: 64px 32.5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.firstSection__bottom__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.firstSection__bottom__content__text {
+    color: var(--grey500);
+}
+
+.firstSection__bottom__shopNow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstSection__bottom__shopNow__arrow {
+    height: 12px;
+}
