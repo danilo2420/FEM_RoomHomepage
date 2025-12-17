@@ -97,3 +97,40 @@ body {
     position: relative;
     top: -3px;
 }
+
+
+/* Second section */
+.secondSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondSection__image1, .secondSection__image2 {
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+}
+
+.secondSection__image1 {
+    background-image: url('../images/image-about-dark.jpg');
+}
+
+.secondSection__image2 {
+    background-image: url('../images/image-about-light.jpg');
+}
+
+.secondSection__text {
+    padding: 48px 32.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.secondSection__text__title {
+    text-transform: uppercase;
+}
+
+
+.secondSection__text__content {
+    color: var(--grey500);
+}

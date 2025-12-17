@@ -8,19 +8,19 @@
 const dataObject = [
     {
         "selector": ".firstSection__bottom__content__title",
-        "cutPoints": [600, 1425],
+        "cutPoints": [600, 1100],
         "tps": ["tp2", "tp1", "tp1"],
         "currentVersion": ""
     },
     {
         "selector": ".firstSection__bottom__content__text",
-        "cutPoints": [600, 1425],
+        "cutPoints": [600, 1100],
         "tps": ["tp3-medium", "tp3-medium", "tp3-medium"],
         "currentVersion": ""
     },
     {
         "selector": ".firstSection__bottom__shopNow__text",
-        "cutPoints": [600, 1425],
+        "cutPoints": [600, 1100],
         "tps": ["tp4", "tp4", "tp4"],
         "currentVersion": ""
     }

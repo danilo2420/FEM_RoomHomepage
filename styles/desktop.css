@@ -4,20 +4,17 @@
     .firstSection {
         flex-direction: row;
         height: 535px;
-        border: solid orange 2px;
     }
 
     .firstSection__top {
         width: 45%;
         height: 100%;
-        border: solid purple 2px;
     }
 
     .firstSection__bottom {
         padding: 140px 100px;
         width: 55%;
         height: 100%;
-        border: solid green 2px;
     }
 
     .arrowButtons {
