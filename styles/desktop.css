@@ -1,4 +1,4 @@
-@media (min-width: 1425px) {
+@media (min-width: 1100px) {
 
     /* First section */
     .firstSection {
@@ -8,15 +8,14 @@
     }
 
     .firstSection__top {
-        
-        width: 60%;
+        width: 45%;
         height: 100%;
         border: solid purple 2px;
     }
 
     .firstSection__bottom {
         padding: 140px 100px;
-        width: 40%;
+        width: 55%;
         height: 100%;
         border: solid green 2px;
     }
@@ -24,5 +23,30 @@
     .arrowButtons {
         position: absolute;
         transform: translateX(100%);
+    }
+
+    .header {
+        justify-content: start;
+        gap: 56px;
+    }
+
+    .burgerMenu, .invisibleElement {
+        display: none;
+    }
+
+    .headerMenu {
+        display: flex;
+        gap: 32px;
+        color: var(--white)
+    }
+}
+
+@media (min-width: 1425px) {
+    .firstSection__top {
+        width: 60%;
+    }
+
+    .firstSection__bottom {
+        width: 40%;
     }
 }

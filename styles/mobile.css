@@ -53,6 +53,10 @@ body {
     justify-content: space-between;
 }
 
+.headerMenu {
+    display: none;
+}
+
 .burgerMenu {
     height: 14px;
 }
