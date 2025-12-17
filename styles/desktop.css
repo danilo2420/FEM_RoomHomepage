@@ -1,1 +1,28 @@
+@media (min-width: 1425px) {
 
+    /* First section */
+    .firstSection {
+        flex-direction: row;
+        height: 535px;
+        border: solid orange 2px;
+    }
+
+    .firstSection__top {
+        
+        width: 60%;
+        height: 100%;
+        border: solid purple 2px;
+    }
+
+    .firstSection__bottom {
+        padding: 140px 100px;
+        width: 40%;
+        height: 100%;
+        border: solid green 2px;
+    }
+
+    .arrowButtons {
+        position: absolute;
+        transform: translateX(100%);
+    }
+}
