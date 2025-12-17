@@ -1,8 +1,4 @@
 
-body {
-    border: solid red 2px;
-}
-
 /* First section */
 .firstSection {
     
@@ -123,6 +119,7 @@ body {
     padding: 48px 32.5px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 16px;
 }
 

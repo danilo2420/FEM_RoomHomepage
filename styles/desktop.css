@@ -1,3 +1,20 @@
+@media (min-width: 950px) {
+    /* Second section */
+    .secondSection {
+        flex-direction: row;
+    }
+
+    .secondSection__image1, .secondSection__image2 {
+        width: 25%;
+        height: 300px;
+    }
+
+    .secondSection__text {
+        padding: 58px 48px;
+        width: 50%;
+    }
+}
+
 @media (min-width: 1100px) {
 
     /* First section */
@@ -44,6 +61,16 @@
     }
 
     .firstSection__bottom {
+        width: 40%;
+    }
+
+    .secondSection__image1, .secondSection__image2 {
+        width: 30%;
+        height: 300px;
+    }
+
+    .secondSection__text {
+        padding: 58px 48px;
         width: 40%;
     }
 }
