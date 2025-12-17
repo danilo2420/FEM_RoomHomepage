@@ -31,4 +31,13 @@
     .firstSection__bottom__shopNow__arrow {
         width: 40px;
     }
+
+    /* Second section */
+    .secondSection__image1, .secondSection__image2 {
+        height: 300px;
+    }
+
+    .secondSection__text {
+        padding: 64px;
+    }
 }
