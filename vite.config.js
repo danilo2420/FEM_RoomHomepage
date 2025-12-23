@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "/FEM_RoomHomepage/"
+    base: "/FEM_RoomHomepage/",
+    assetsInclude: ['images/*']
 })
