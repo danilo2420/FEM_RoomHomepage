@@ -131,3 +131,29 @@
     color: var(--grey500);
 }
 
+/* Mobile menu */
+
+.mobileMenuScreen {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mobileMenu {
+    padding: 47px 22px;
+    background-color: var(--white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobileMenu__items {
+    display: flex;
+    gap: 32px;
+}

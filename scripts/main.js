@@ -6,10 +6,12 @@ import "../styles/desktop.css";
 
 // Import scripts
 import { runTypographiesScript } from "./typographies.js";
+import { runBurgerMenuScript } from "./burgerMenu.js";
 
 // Main
 function main() {
     runTypographiesScript();
+    runBurgerMenuScript();
 }
 
 main();

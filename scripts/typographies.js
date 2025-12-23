@@ -1,3 +1,4 @@
+import { closeIfDesktop } from "./burgerMenu.js";
 
 // This is a new typography script that takes into account the fact that
 // different sections of a page break at different points. 
@@ -28,10 +29,14 @@ const dataObject = [
 // Main 
 export function runTypographiesScript() {
     window.onload = loadTypographies;
-    window.onresize = loadTypographies;
+    window.onresize = () => {
+        loadTypographies();
+        closeIfDesktop(); // this is from the burger menu script
+    };
 }
 
 function loadTypographies() {
+
     const currentWidth = window.innerWidth;
 
     // Iterate through every element and change their typography

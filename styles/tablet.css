@@ -40,4 +40,11 @@
     .secondSection__text {
         padding: 64px;
     }
+
+    /* Mobile menu */
+
+    .mobileMenu {
+        padding: 47px 63px;
+    }
+    
 }
