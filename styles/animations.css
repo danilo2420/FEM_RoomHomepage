@@ -1,0 +1,34 @@
+/* Logo and top buttons */
+.roomLogo, .headerMenu__item {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.roomLogo:hover, .headerMenu__item:hover {
+    transform: scale(1.1);
+}
+
+/* Arrow buttons */
+.arrowButtons > * {
+    cursor: pointer;
+}
+.arrowButtons > * img {
+    transition: transform 0.5s;
+}
+
+.arrowButtons > *:hover img {
+    transform: scale(1.5);
+}
+
+/* Shop now text*/
+.firstSection__bottom__shopNow {
+    cursor: pointer;
+}
+
+.firstSection__bottom__shopNow > .firstSection__bottom__shopNow__text {
+    transition: letter-spacing 0.5s;
+}
+
+.firstSection__bottom__shopNow:hover > .firstSection__bottom__shopNow__text {
+    letter-spacing: 16px;
+}
