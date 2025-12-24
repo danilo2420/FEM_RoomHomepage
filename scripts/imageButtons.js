@@ -1,12 +1,15 @@
+import img1 from '../images/desktop-image-hero-1.jpg';
+import img2 from '../images/desktop-image-hero-2.jpg';
+import img3 from '../images/desktop-image-hero-3.jpg';
 
 const arrowLeft = document.querySelector(".arrowButtons__left");
 const arrowRight = document.querySelector(".arrowButtons__right");
 const imageSection = document.querySelector('.firstSection__top');
 
 const imageArr = [
-    "images/desktop-image-hero-1.jpg",
-    "images/desktop-image-hero-2.jpg",
-    "images/desktop-image-hero-3.jpg",
+    img1,
+    img2,
+    img3
 ] 
 
 let currentIndex = 0;
