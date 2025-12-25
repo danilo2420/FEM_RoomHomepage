@@ -114,7 +114,7 @@
     background-position: center;
     background-size: cover;
 
-    transition: width 1s, transform 1s;
+    transition: width 0.5s, transform 0.5s;
 }
 
 .secondSection__image2__content:hover {
@@ -135,7 +135,7 @@
     background-position: center;
     background-size: cover;
 
-    transition: width 1s, transform 1s;
+    transition: width 0.5s, transform 0.5s;
 }
 
 .secondSection__image1__content:hover {
