@@ -10,6 +10,9 @@ import { runTypographiesScript } from "./typographies.js";
 import { runBurgerMenuScript } from "./burgerMenu.js";
 import { runImageButtonsScript } from "./imageButtons.js";
 
+import { animate } from "animejs";
+
+
 // Main
 function main() {
     runTypographiesScript();
