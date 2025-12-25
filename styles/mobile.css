@@ -101,18 +101,46 @@
     flex-direction: column;
 }
 
-.secondSection__image1, .secondSection__image2 {
+.secondSection__image2 {
     height: 240px;
-    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.secondSection__image2__content {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/image-about-light.jpg');
     background-position: center;
+    background-size: cover;
+
+    transition: width 1s, transform 1s;
+}
+
+.secondSection__image2__content:hover {
+    width: 110%;
+    transform: translateX(-5%);
 }
 
 .secondSection__image1 {
-    background-image: url('../images/image-about-dark.jpg');
+    height: 240px;
+    overflow: hidden;
+    position: relative;
 }
 
-.secondSection__image2 {
-    background-image: url('../images/image-about-light.jpg');
+.secondSection__image1__content {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/image-about-dark.jpg');
+    background-position: center;
+    background-size: cover;
+
+    transition: width 1s, transform 1s;
+}
+
+.secondSection__image1__content:hover {
+    width: 110%;
+    transform: translateX(-5%);
 }
 
 .secondSection__text {
