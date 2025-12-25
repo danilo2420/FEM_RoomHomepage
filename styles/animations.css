@@ -27,3 +27,35 @@
 .firstSection__bottom__shopNow {
     cursor: pointer;
 }
+
+/* Image animations are not here */
+
+
+/* Burger menu */
+.burgerMenu {
+    transition: transform 0.2s;
+}
+
+.burgerMenu:hover {
+    transform: scale(1.1);
+}
+
+/* Mobile menu */
+.mobileMenu__closeButton {
+    transition: transform 0.8s;
+    cursor: pointer;
+}
+
+.mobileMenu__closeButton:hover {
+    transform: scale(1.2);
+    transform: rotate(180deg);
+}
+
+.mobileMenu__items > * {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.mobileMenu__items > *:hover {
+    transform: scale(1.1);
+}

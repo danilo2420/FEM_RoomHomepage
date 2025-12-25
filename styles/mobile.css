@@ -55,6 +55,7 @@
 
 .burgerMenu {
     height: 14px;
+    cursor: pointer;
 }
 
 .roomLogo {
