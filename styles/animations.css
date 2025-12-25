@@ -24,7 +24,7 @@
 .firstSection__bottom__shopNow {
     cursor: pointer;
 }
-
+/*
 .firstSection__bottom__shopNow > .firstSection__bottom__shopNow__text {
     transition: letter-spacing 0.5s;
 }
@@ -32,3 +32,4 @@
 .firstSection__bottom__shopNow:hover > .firstSection__bottom__shopNow__text {
     letter-spacing: 16px;
 }
+*/

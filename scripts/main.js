@@ -9,6 +9,7 @@ import "../styles/animations.css";
 import { runTypographiesScript } from "./typographies.js";
 import { runBurgerMenuScript } from "./burgerMenu.js";
 import { runImageButtonsScript } from "./imageButtons.js";
+import { runLetterAnimation } from "./letterAnimation.js";
 
 import { animate } from "animejs";
 
@@ -18,6 +19,7 @@ function main() {
     runTypographiesScript();
     runBurgerMenuScript();
     runImageButtonsScript();
+    runLetterAnimation();
 }
 
 main();
